@@ -329,7 +329,7 @@ padding: 15px 30px;
 .section3{
     width:100%;
     height: 100%;
-    background-color: black;
+    background-color: white;
     margin-top: 100px;
 }
 .last2{
@@ -339,6 +339,7 @@ padding: 15px 30px;
     display: flex;
     gap:20px;
     padding: 15px;
+    border-radius: 10px;
 }
 .section3 .last2 .card{
     height:100%;
@@ -423,7 +424,8 @@ padding: 15px 30px;
    display: flex;
    flex-direction: column;
    gap:70px;
-   padding: 30px;
+   padding: 20px;
+   background-color: #EEE9E9;
 }
 .card:nth-child(4) .special{
     display: flex;
@@ -442,19 +444,15 @@ padding: 15px 30px;
 font-size: 35px;
 }
 
-.amenti>button{
+.amenti .button button{
     background-color: black;
     color:white;
     height:50px;
-    width:300px;
+    width:250px;
     border-radius: 25px;
-    margin-top: 60px;
+    margin-top: 50px;
 }
-.section3 .gp{
-    height: 8%;
-    width:100%;
-    background-color: #fff;
-}
+
 
 .last{
     width: 100%;
@@ -463,6 +461,8 @@ font-size: 35px;
     display: flex;
     gap:20px;
     padding: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
 }
 .section3 .last .card{
     height:100%;
@@ -486,4 +486,12 @@ font-size: 35px;
     justify-content: space-between;
     background-color: #fff;
     border-radius: 10px;
+}
+
+.last .card:nth-child(4){
+   display: flex;
+   flex-direction: column;
+   gap:70px;
+   padding: 20px;
+   background-color: #EEE9E9;
 }
